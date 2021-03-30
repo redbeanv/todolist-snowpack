@@ -19,7 +19,11 @@ module.exports = {
     src: {url: '/dist'},
   },
   plugins: [
-    /* ... */
+    '@snowpack/plugin-sass'
+    // https://www.npmjs.com/package/@snowpack/plugin-sass
+    // , {
+    //  /* see options below */
+    // }
   ],
   routes: [
     /* Enable an SPA Fallback in development: */

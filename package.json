@@ -22,7 +22,10 @@
     "url": "https://github.com/redbeanv/todolist-snowpack/issues"
   },
   "homepage": "https://github.com/redbeanv/todolist-snowpack#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@snowpack/plugin-sass": "^1.4.0",
+    "sass": "^1.32.8"
+  },
   "devDependencies": {
     "snowpack": "^3.1.2"
   }

@@ -1,3 +1,3 @@
-import {helloWord} from './helloWorld';
+import './sass/index.scss'
 
-helloWord();
+// const body = document.getElementsByTagName('body')[0];
